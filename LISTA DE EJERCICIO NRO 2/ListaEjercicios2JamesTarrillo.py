@@ -105,8 +105,8 @@ print("""
 import sys
 a=sys.argv
 
-def indeterminados_posicion(*args):
+def Argumentos(*args):
     for arg in args:
         print(arg)
 
-indeterminados_posicion("hola soy","James y tengo",[4,"hermanas y",1,"hermano"],{'Estudios':["universitario","maestria"]})
+Argumentos("hola soy","James y tengo",[4,"hermanas y",1,"hermano"],{'Estudios':["universitario","maestria"]})
